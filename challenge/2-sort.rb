@@ -11,7 +11,6 @@ ARGV.each do |arg|
 
     # convert to integer
     i_arg = arg.to_i
-    puts i_arg
 
     # insert result at the right position
     is_inserted = false
@@ -29,5 +28,4 @@ ARGV.each do |arg|
     result << i_arg if !is_inserted
 end
 
-puts "\n"
 puts result
